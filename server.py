@@ -10,6 +10,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = database_url
 db = SQLAlchemy(app)
 
+## testing route
 @app.route('/')
 def hello():
     """Homepage"""
