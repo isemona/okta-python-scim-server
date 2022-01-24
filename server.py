@@ -1,4 +1,3 @@
-import os
 from re import U
 from flask import Flask, flash, redirect, request, render_template, session, jsonify
 from flask_sqlalchemy import SQLAlchemy
